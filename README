@@ -1,0 +1,40 @@
+This was a problem given by the HackerRank competition. Competition was held
+after winter break and was called the Welcome back to School Hackathon.
+
+This particular problem is the Leibniz Sum. For Code Golf you need to implement
+the given algorithm (Leibniz in this case) with the fewest characters possible
+(white space included). The code becomes very unreadable, and to use
+minimal characters you have to find particular shortcuts for the language
+you are using.
+
+For this problem I chose C, I felt that I was an efficient programmer in C and
+that Java would use way too many characters.
+
+To cut down on characters I removed the header files as the online compiler
+given by HackerRank understood enough to compile with it. That instantly bumped
+me up several 100 ranks.
+
+I was using too many variables and needed to cut down on them. At first I was
+using 4 variables when all I really needed was 3 to keep track of 2 loops
+and 1 sum.
+
+Another boost in rank came when I used the ternary op to remove my if-else
+statements. And that completed my code for this problem.
+
+I placed 2nd amongst users who used C. The guy who beat me had .2 points more
+than I did. That's 2 characters! So close, yet so far.
+
+Looking back on this problem, the top place finishers used scripting languages
+like PHP, Ruby, Lua, to finish this problem. Now that I'm fairly adept at Ruby
+I would go back and use Ruby for this problem if I could. It removes first of
+all semi-colons immediately. And no need for headers and the print statement
+'put' is much shorter than printf("\n"). As put already includes this 
+new line character.
+
+To run the program you can use the executable. The firs arg you pass in, say
+100. Will mean you need to provide 100 inputs to Leibniz sum. The next 100
+inputs are then numbers you want to perform a Leibniz sum on.
+
+Note: The actual submission I sent in is called Leibniz.c. The code is all on
+one line and is fairly unreadable which is why I spaced it out in a new file
+ReadableLeibniz.c.
